@@ -1,11 +1,16 @@
 /* TODO: complete the highlighter css */
 
+.highlighter-rouge {
+    background-color: #191622;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 div.highlight {
     overflow: auto;
 }
 
 div.highlight pre.highlight {
-    padding: 10px;
 }
 
 .highlight table td { padding: 5px; }
@@ -132,4 +137,4 @@ div.highlight pre.highlight {
 
 .highlight .w { color: #bbbbbb; }
 
-.highlight { background-color: #191622; color: #E1E1E6; }
+.highlight { color: #E1E1E6; }

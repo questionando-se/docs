@@ -1,0 +1,8 @@
+lang: "pt_BR"
+ssl: true
+title: "Questionando"
+description: "O seu banco de questões gratuíto"
+author: "Eduardo Oliveira (@EduardoJM)"
+baseurl: ""
+url: "https://questionando-se.github.io/docs"
+github_url: "https://github.com/questionando-se/docs"

@@ -4,11 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}Questionando</title>
+    <!-- Google Icon Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- Layout Styles -->
+    {% if page.highlight %}
+        <link rel="stylesheet" href="{{ site.url }}/assets/styles/highlight.css" />
+    {% endif %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/questionando-se/dashboard@0.0.2/styles/dashboard.css" />
 </head>
 <body>
-    <!-- TODO: essa página? -->
 
-    {{ content }}
-    
+    <main>
+        {% include header.html %}
+
+        <div class="content">
+            
+            <div class="container">
+                {{ content }}
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
